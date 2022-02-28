@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "AlbertSans";
+	src: url("albert_sans/fonts/ttf/AlbertSans-Regular.ttf")format("opentype");}
+	
+body{
+	background-color: #ffffff;	
+	margin-top: 0;
+	margin-left:0;
+	margin-right:0;
+}
+
+#logo{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#title{
+	text-align: center;
+	padding: 10px;
+	font-family: 'AlbertSans', Arial, sans-serif;
+    font-weight:600;
+    font-style:normal;
+	font-size: 24px;
+}
+
+#photo{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subtitle{
+	text-align: center;
+	padding: 10px;
+	font-family: 'AlbertSans', Arial, sans-serif;
+    font-weight:600;
+    font-style:normal;
+	font-size: 50px;
+}
+
+hr{
+	width: 80%;
+	border-top: 2px solid lightgray;
+}
+
+#contenitore {
+	position:relative;
+}
+#sinistra{
+	width: 50%;
+	height: 700px;
+	
+}
+#p5js{
+	position:absolute;
+	padding-left:90px;
+	padding-top: 40px;
+	text-align: center;
+	
+}
+
+#destra{
+	float:right;
+	width: 50%;
+	height: 700px;
+	
+}
+
+#testo1{
+	padding: 120px;
+	font-family: 'AlbertSans', Arial, sans-serif;
+    font-weight:70;
+    font-style:normal;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
